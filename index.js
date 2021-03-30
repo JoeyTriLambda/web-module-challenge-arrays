@@ -1,7 +1,7 @@
 /*REMEMBER TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
 
 /* 👀 This is your data ⬇ */
-const originalFlavors = [
+let originalFlavors = [
     "Banana Nut Fudge",
     "Black Walnut",
     "Burgundy Cherry",
@@ -67,9 +67,6 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
-}
 function is31Flavors(originalFlavors){
     if (originalFlavors.length === 31);{
         return true;
@@ -90,8 +87,8 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(originalFlavors, "Rainbow Sherbert"){
-   originalFlavors.unshift("Rainbow Sherbert")
-   return originalFlavors;
+    originalFlavors.unshift("Rainbow Sherbert")
+        return originalFlavors;
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
